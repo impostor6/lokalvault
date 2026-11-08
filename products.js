@@ -15,6 +15,48 @@ const categories = [
 
 const products = [
   {
+    id: "roarwild-varsity-embroidery",
+    title: "ROAR WILD — American Embroidery Varsity Baseball Jacket",
+    category: "outer",
+    image: "https://down-id.img.susercontent.com/file/id-11134216-7rbka-m8jxykhwbmd790",
+    badge: "Varsity Embroidery",
+    rating: "4.9",
+    sold: "2.8k terjual",
+    desc: "Jaket bisbol varsity gaya retro Amerika dengan bordiran detail padat. Siluet drop-shoulder santai untuk pria & wanita.",
+    price: "Rp 334.000",
+    originalPrice: "Rp 499.000",
+    marketplace: "shopee",
+    affiliateUrl: "https://s.shopee.co.id/3g55q5ahjw"
+  },
+  {
+    id: "umka-waffle-knit",
+    title: "UMKASTUDIO — Waffle Knit Kept White Minimalist",
+    category: "tshirt",
+    image: "https://down-id.img.susercontent.com/file/id-11134207-81zte-msgke1sej8jp19",
+    badge: "Waffle Knit",
+    rating: "4.9",
+    sold: "1.9k terjual",
+    desc: "Longsleeve waffle knit tekstur sarang lebah warna kept white. Bahan breathable jatuh pas, cleanfit aesthetic tanpa ribet.",
+    price: "Rp 198.000",
+    originalPrice: "Rp 289.000",
+    marketplace: "shopee",
+    affiliateUrl: "https://s.shopee.co.id/6AmQp82kJb"
+  },
+  {
+    id: "umka-short-pant-bw",
+    title: "UMKASTUDIO — Short Pant BW Leo Micro Fabric",
+    category: "bottoms",
+    image: "https://down-id.img.susercontent.com/file/id-11134207-7r98r-ltf422n70co3ba",
+    badge: "Micro Fabric",
+    rating: "4.8",
+    sold: "3.5k terjual",
+    desc: "Celana pendek santai unisex bermotif graphic Leo dengan material micro fabric ultra-ringan, cepat kering, dan adem seharian.",
+    price: "Rp 149.000",
+    originalPrice: "Rp 219.000",
+    marketplace: "shopee",
+    affiliateUrl: "https://s.shopee.co.id/1W0bGZSlmd"
+  },
+  {
     id: "sai-canda-workjacket",
     title: "SAI — Canda WorkJacket Denim Boxy Trucker Raw",
     category: "outer",
