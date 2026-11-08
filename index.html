@@ -220,8 +220,18 @@
     </div>
   </footer>
 
-  <!-- Load Data Produk -->
-  <script src="./products.js"></script>
+  <!-- Load Data Produk Anti-Cache -->
+  <script>
+    window.addEventListener('DOMContentLoaded', () => {
+      const s = document.createElement('script');
+      s.src = './products.js?t=' + Date.now();
+      s.onload = () => {
+        initCategories();
+        renderProducts(products);
+      };
+      document.head.appendChild(s);
+    });
+  </script>
 
   <!-- App Logic -->
   <script>
@@ -411,8 +421,7 @@
       }
     }
 
-    initCategories();
-    renderProducts(products);
+    // Data dimuat secara dinamis via script anti-cache
   </script>
 </body>
 </html>
