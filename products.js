@@ -1,7 +1,7 @@
 /**
  * DATABASE BRAND FASHION LOKAL (LOKALVAULT)
  * 
- * Terkoneksi otomatis dengan GitHub Pages & Vercel.
+ * Terkoneksi otomatis dengan GitHub Pages (impostor6.github.io/lokalvault).
  */
 
 const categories = [
@@ -43,6 +43,48 @@ const products = [
     affiliateUrl: "https://s.shopee.co.id/3B8ozMglQ9"
   },
   {
+    id: "roarwild-retro-baseball-jacket",
+    title: "ROAR WILD — Retro Japanese Workwear Baseball Jacket",
+    category: "outer",
+    image: "https://down-id.img.susercontent.com/file/id-11134201-7rbkb-m9skxbkttimq39",
+    badge: "Retro Workwear",
+    rating: "4.9",
+    sold: "4.4k terjual",
+    desc: "Jaket workwear perpaduan gaya retro Jepang & baseball varsity Amerika. Kerah berdiri kasual, potongan longgar santai dengan bahan tebal premium.",
+    price: "Rp 179.000",
+    originalPrice: "Rp 289.000",
+    marketplace: "shopee",
+    affiliateUrl: "https://s.shopee.co.id/80E4zi29ew"
+  },
+  {
+    id: "netdragon-boxy-worker-jacket",
+    title: "NET DRAGON — Minimalist Boxy Worker Jacket Streetwear",
+    category: "outer",
+    image: "https://down-id.img.susercontent.com/file/id-11134207-7ra0l-mbwce4autgsc6c",
+    badge: "Boxy Fit",
+    rating: "4.8",
+    sold: "5.1k terjual",
+    desc: "Jaket boxy worker streetwear berbahan katun twill kokoh. Siluet kotak dengan kerah klasik, pas banget buat fit check harian.",
+    price: "Rp 145.000",
+    originalPrice: "Rp 229.000",
+    marketplace: "shopee",
+    affiliateUrl: "https://s.shopee.co.id/5AttcRwpSN"
+  },
+  {
+    id: "roarwild-layered-cardigan",
+    title: "ROAR WILD — Layered Mock Cardigan Knit Sweater Cleanfit",
+    category: "outer",
+    image: "https://down-id.img.susercontent.com/file/sg-11134201-822yg-mo814yyidq8451",
+    badge: "Cleanfit Style",
+    rating: "4.8",
+    sold: "3.2k terjual",
+    desc: "Kardigan rajut mock dua lapis bergaya cleanfit minimalis. Tekstur knit lembut, potongan rileks yang pas buat gaya layering santai atau semi-formal.",
+    price: "Rp 165.000",
+    originalPrice: "Rp 259.000",
+    marketplace: "shopee",
+    affiliateUrl: "https://s.shopee.co.id/3qOW1u7u4D"
+  },
+  {
     id: "skystars-boxy-zip-hoodie",
     title: "SKY STARS — Heavyweight Boxy Zip Hoodie Fleece",
     category: "outer",
@@ -57,20 +99,6 @@ const products = [
     affiliateUrl: "https://s.shopee.co.id/6fihOq7yHg"
   },
   {
-    id: "sontog-casual-shorts",
-    title: "SontoG — Casual Shorts Celana Pendek Santai Pria",
-    category: "bottoms",
-    image: "https://down-id.img.susercontent.com/file/id-11134207-7r98u-lwgu5rp2w16l66",
-    badge: "Daily Casual",
-    rating: "4.8",
-    sold: "8.2k terjual",
-    desc: "Celana pendek santai bahan twill katun adem. Pinggang karet elastis dengan tali serut, nyaman buat nongkrong harian.",
-    price: "Rp 59.000",
-    originalPrice: "Rp 99.000",
-    marketplace: "shopee",
-    affiliateUrl: "https://s.shopee.co.id/906byX2KSe"
-  },
-  {
     id: "opaan-carpenter-denim",
     title: "OPAAN — Loose Fit Carpenter Denim Pants Washed",
     category: "bottoms",
@@ -83,6 +111,20 @@ const products = [
     originalPrice: "Rp 289.000",
     marketplace: "shopee",
     affiliateUrl: "https://s.shopee.co.id/30pP29GWbA"
+  },
+  {
+    id: "sontog-casual-shorts",
+    title: "SontoG — Casual Shorts Celana Pendek Santai Pria",
+    category: "bottoms",
+    image: "https://down-id.img.susercontent.com/file/id-11134207-7r98u-lwgu5rp2w16l66",
+    badge: "Daily Casual",
+    rating: "4.8",
+    sold: "8.2k terjual",
+    desc: "Celana pendek santai bahan twill katun adem. Pinggang karet elastis dengan tali serut, nyaman buat nongkrong harian.",
+    price: "Rp 59.000",
+    originalPrice: "Rp 99.000",
+    marketplace: "shopee",
+    affiliateUrl: "https://s.shopee.co.id/906byX2KSe"
   },
   {
     id: "hanoon-longsleeve-white-blossom",
