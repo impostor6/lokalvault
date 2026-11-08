@@ -15,6 +15,48 @@ const categories = [
 
 const products = [
   {
+    id: "kickchick-sap-doublesleeve",
+    title: "Kickchick X SAP — Doublesleeve Stripe Playlist Black & White",
+    category: "tshirt",
+    image: "https://down-id.img.susercontent.com/file/id-11134207-7rask-m63y11nzwa6ae1",
+    badge: "Kickchick x SAP",
+    rating: "4.9",
+    sold: "3.1k terjual",
+    desc: "Kolaborasi eksklusif Kickchick x Sindikat Akhir Pekan (SAP). Desain doublesleeve striping monokrom 90-an dengan sablon grafis Playlist bertekstur.",
+    price: "Rp 115.000",
+    originalPrice: "Rp 220.000",
+    marketplace: "shopee",
+    affiliateUrl: "https://s.shopee.co.id/3VlfePyHxv"
+  },
+  {
+    id: "hoolow-double-layer-antidept",
+    title: "HOOLOW — Double Layer Long Sleeve Antidept Heavy 20s",
+    category: "tshirt",
+    image: "https://down-id.img.susercontent.com/file/id-11134207-81ztk-mtj65seqm0w6fe",
+    badge: "Cotton Combed 20s",
+    rating: "4.8",
+    sold: "2.4k terjual",
+    desc: "Siluet double-layer faux tee berbahan Cotton Combed 20s tebal dan kokoh. Sablon plastisol grafis tipografi Antidept khas underground streetwear.",
+    price: "Rp 149.000",
+    originalPrice: "Rp 300.000",
+    marketplace: "shopee",
+    affiliateUrl: "https://s.shopee.co.id/7KyODVe5Hk"
+  },
+  {
+    id: "kickchick-doublesleeve-nova",
+    title: "Kickchick — Doublesleeve Nova Velocity Black Nova Series",
+    category: "tshirt",
+    image: "https://down-id.img.susercontent.com/file/sg-11134201-821fh-mgx2ndjwo4co58",
+    badge: "Nova Series",
+    rating: "4.9",
+    sold: "4.2k terjual",
+    desc: "Atasan doublesleeve bergaya cyber-speed Y2K dengan artwork tipografi Velocity. Potongan drop-shoulder santai yang adem buat daily fit.",
+    price: "Rp 129.000",
+    originalPrice: "Rp 300.000",
+    marketplace: "shopee",
+    affiliateUrl: "https://s.shopee.co.id/2qVyrIhIHg"
+  },
+  {
     id: "roarwild-varsity-embroidery",
     title: "ROAR WILD — American Embroidery Varsity Baseball Jacket",
     category: "outer",
