@@ -1,8 +1,7 @@
 /**
- * DATABASE BRAND FASHION LOKAL (LOKALPRIDE / FITS)
+ * DATABASE BRAND FASHION LOKAL (LOKALVAULT)
  * 
- * Nanti setiap kali lo punya link Shopee/Tokopedia produk fashion lokal baru,
- * tinggal kirim ke chat dan bakal otomatis di-update ke file ini.
+ * Terkoneksi otomatis dengan GitHub & Vercel.
  */
 
 const categories = [
@@ -72,18 +71,18 @@ const products = [
     affiliateUrl: "https://s.shopee.co.id/2Vt8G9sA66"
   },
   {
-    id: "fits-2",
-    title: "Workwear Canvas Coach Jacket Water-Repellent",
-    category: "outer",
-    image: "https://images.unsplash.com/photo-1544022613-e87ca75a784a?w=600&auto=format&fit=crop&q=80",
-    badge: "Brand Bandung",
+    id: "simplimoods-longsleeve-exposed-stitching",
+    title: "SimpliMoods — Longsleeve Boxy Oversize Exposed Stitching Brown",
+    category: "tshirt",
+    image: "https://down-id.img.susercontent.com/file/id-11134207-81ztl-ms7zg0azg9ol12",
+    badge: "Exposed Stitching",
     rating: "4.9",
-    sold: "8.1k terjual",
-    desc: "Bahan canvas twill kokoh tahan angin & gerimis halus. Furing dalem adem, saku dalam rahasia aman.",
-    price: "Rp 189.000",
-    originalPrice: "Rp 279.000",
+    sold: "4.8k terjual",
+    desc: "Cotton Combed 20s tebal (210 gsm) dengan aksen jahitan luar (exposed stitching) kontras. Siluet boxy oversize jatuh di badan cakep banget.",
+    price: "Rp 99.000",
+    originalPrice: "Rp 165.000",
     marketplace: "shopee",
-    affiliateUrl: "https://shopee.co.id"
+    affiliateUrl: "https://s.shopee.co.id/5LDJeXJ2lT"
   },
   {
     id: "fits-3",
@@ -124,20 +123,6 @@ const products = [
     desc: "Muat dompet, HP, charger, dan parfum. Resleting seal karet anti-rembes air hujan.",
     price: "Rp 79.000",
     originalPrice: "Rp 120.000",
-    marketplace: "shopee",
-    affiliateUrl: "https://shopee.co.id"
-  },
-  {
-    id: "fits-6",
-    title: "Cuban Collar Patterned Camp Shirt",
-    category: "outer",
-    image: "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=600&auto=format&fit=crop&q=80",
-    badge: "Bahan Rayon Adem",
-    rating: "4.8",
-    sold: "9.5k terjual",
-    desc: "Kemeja kerah terbuka ala retro santai. Bahan rayon jatuh adem cocok buat nongkrong atau pantai.",
-    price: "Rp 115.000",
-    originalPrice: "Rp 175.000",
     marketplace: "shopee",
     affiliateUrl: "https://shopee.co.id"
   }
