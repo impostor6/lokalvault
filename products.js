@@ -1,13 +1,13 @@
 /**
  * DATABASE BRAND FASHION LOKAL (LOKALVAULT)
  * 
- * Terkoneksi otomatis dengan GitHub & Vercel.
+ * Terkoneksi otomatis dengan GitHub Pages & Vercel.
  */
 
 const categories = [
   { id: "all", label: "Semua Fits" },
-  { id: "tshirt", label: "Kaos & T-Shirt" },
   { id: "outer", label: "Jaket & Outer" },
+  { id: "tshirt", label: "Kaos & T-Shirt" },
   { id: "bottoms", label: "Celana & Denim" },
   { id: "footwear", label: "Sepatu & Sneakers" },
   { id: "bags", label: "Tas & Aksesoris" }
@@ -43,6 +43,20 @@ const products = [
     affiliateUrl: "https://s.shopee.co.id/3B8ozMglQ9"
   },
   {
+    id: "skystars-boxy-zip-hoodie",
+    title: "SKY STARS — Heavyweight Boxy Zip Hoodie Fleece",
+    category: "outer",
+    image: "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=600&auto=format&fit=crop&q=80",
+    badge: "Fleece 330gsm",
+    rating: "4.9",
+    sold: "6.7k terjual",
+    desc: "Bahan cotton fleece 330gsm tebal dan hangat dengan siluet drop-shoulder boxy. Resleting metal kokoh, rib bawah kencang anti-letoy.",
+    price: "Rp 175.000",
+    originalPrice: "Rp 279.000",
+    marketplace: "shopee",
+    affiliateUrl: "https://s.shopee.co.id/6fihOq7yHg"
+  },
+  {
     id: "sontog-casual-shorts",
     title: "SontoG — Casual Shorts Celana Pendek Santai Pria",
     category: "bottoms",
@@ -55,6 +69,20 @@ const products = [
     originalPrice: "Rp 99.000",
     marketplace: "shopee",
     affiliateUrl: "https://s.shopee.co.id/906byX2KSe"
+  },
+  {
+    id: "opaan-carpenter-denim",
+    title: "OPAAN — Loose Fit Carpenter Denim Pants Washed",
+    category: "bottoms",
+    image: "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600&auto=format&fit=crop&q=80",
+    badge: "Denim 14oz",
+    rating: "4.8",
+    sold: "4.9k terjual",
+    desc: "Siluet baggy carpenter dengan utility pocket & hammer loop. Denim 14oz tebal dengan efek fading vintage natural yang pas di sneakers.",
+    price: "Rp 189.000",
+    originalPrice: "Rp 289.000",
+    marketplace: "shopee",
+    affiliateUrl: "https://s.shopee.co.id/30pP29GWbA"
   },
   {
     id: "hanoon-longsleeve-white-blossom",
@@ -85,45 +113,31 @@ const products = [
     affiliateUrl: "https://s.shopee.co.id/5LDJeXJ2lT"
   },
   {
-    id: "fits-3",
-    title: "Loose Fit Washed Denim 13.5oz Raw Vintage",
-    category: "bottoms",
-    image: "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600&auto=format&fit=crop&q=80",
-    badge: "Vintage Wash",
-    rating: "4.8",
-    sold: "12k terjual",
-    desc: "Siluet lurus gombrong retro 90-an. Efek fading natural, kancing & zipper YKK anti-macet.",
-    price: "Rp 215.000",
-    originalPrice: "Rp 320.000",
-    marketplace: "tokopedia",
-    affiliateUrl: "https://tokopedia.com"
-  },
-  {
-    id: "fits-4",
+    id: "fits-sneakers-vintage",
     title: "Retro Vulcanized Canvas Low-Top Sneakers",
     category: "footwear",
     image: "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&auto=format&fit=crop&q=80",
-    badge: "Local Pride",
+    badge: "Insole Empuk",
     rating: "4.9",
     sold: "41k terjual",
-    desc: "Insole empuk double-density, nggak bikin tumit sakit buat jalan seharian. Foxing tebal awet.",
+    desc: "Insole empuk double-density, nggak bikin tumit pegal seharian. Foxing tebal dan outsole rubber anti-licin.",
     price: "Rp 159.000",
     originalPrice: "Rp 249.000",
     marketplace: "shopee",
-    affiliateUrl: "https://shopee.co.id"
+    affiliateUrl: "https://s.shopee.co.id/7VHo9P38vC"
   },
   {
-    id: "fits-5",
+    id: "fits-cordura-bag",
     title: "Minimalist Cordura Sling Bag Waterproof",
     category: "bags",
     image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&auto=format&fit=crop&q=80",
     badge: "Waterproof",
     rating: "4.9",
     sold: "15k terjual",
-    desc: "Muat dompet, HP, charger, dan parfum. Resleting seal karet anti-rembes air hujan.",
+    desc: "Bahan Cordura tebal tahan air hujan gerimis. Kompartemen rapi muat HP, dompet, kunci, dan charger.",
     price: "Rp 79.000",
     originalPrice: "Rp 120.000",
     marketplace: "shopee",
-    affiliateUrl: "https://shopee.co.id"
+    affiliateUrl: "https://s.shopee.co.id/906byX2KSe"
   }
 ];
