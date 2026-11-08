@@ -44,6 +44,20 @@ const products = [
     affiliateUrl: "https://s.shopee.co.id/3B8ozMglQ9"
   },
   {
+    id: "sontog-casual-shorts",
+    title: "SontoG — Casual Shorts Celana Pendek Santai Pria",
+    category: "bottoms",
+    image: "https://down-id.img.susercontent.com/file/id-11134207-7r98u-lwgu5rp2w16l66",
+    badge: "Daily Casual",
+    rating: "4.8",
+    sold: "8.2k terjual",
+    desc: "Celana pendek santai bahan twill katun adem. Pinggang karet elastis dengan tali serut, nyaman buat nongkrong harian.",
+    price: "Rp 59.000",
+    originalPrice: "Rp 99.000",
+    marketplace: "shopee",
+    affiliateUrl: "https://s.shopee.co.id/906byX2KSe"
+  },
+  {
     id: "fits-1",
     title: "Heavyweight Boxy Tee 16s Cotton Combed",
     category: "tshirt",
