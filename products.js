@@ -58,18 +58,18 @@ const products = [
     affiliateUrl: "https://s.shopee.co.id/906byX2KSe"
   },
   {
-    id: "fits-1",
-    title: "Heavyweight Boxy Tee 16s Cotton Combed",
+    id: "hanoon-longsleeve-white-blossom",
+    title: "Hanoon Industries — Longsleeve T-shirt White Blossom",
     category: "tshirt",
-    image: "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?w=600&auto=format&fit=crop&q=80",
-    badge: "Bahan Tebal 16s",
+    image: "https://down-id.img.susercontent.com/file/id-11134207-822wp-mnelau3m40zm31",
+    badge: "Heavy Cotton",
     rating: "4.9",
-    sold: "23k terjual",
-    desc: "Rib leher tebal anti-melar. Cutting boxy bikin ilusi pundak tegap, bahan adem walau tebal.",
+    sold: "5.4k terjual",
+    desc: "Kaos lengan panjang bahan cotton combed premium yang tebal dan halus. Rib lengan kencang anti-melar, cocok buat styling streetwear.",
     price: "Rp 89.000",
     originalPrice: "Rp 145.000",
     marketplace: "shopee",
-    affiliateUrl: "https://shopee.co.id"
+    affiliateUrl: "https://s.shopee.co.id/2Vt8G9sA66"
   },
   {
     id: "fits-2",
